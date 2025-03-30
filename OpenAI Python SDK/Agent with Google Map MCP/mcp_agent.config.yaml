@@ -1,0 +1,9 @@
+mcp:
+  servers:
+    maps:
+      command: "npx"
+      args: ["-y", "@modelcontextprotocol/server-google-maps"]
+      "env": {
+        "GOOGLE_MAPS_API_KEY": ""
+      }
+    
