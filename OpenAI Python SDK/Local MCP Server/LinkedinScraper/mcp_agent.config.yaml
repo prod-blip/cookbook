@@ -1,0 +1,14 @@
+mcp:
+  servers:
+    maps:
+      command: "npx"
+      args: ["-y", "@modelcontextprotocol/server-google-maps"]
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "AIzaSyAyyOT82FkV0atWC9SSSCEv1eMYiwDFBeY"
+      }
+    linkedin_profile_scraper:
+      command: "D:/Python/Round 2/OpenAIagents/venv/Scripts/python"
+      args: ["D:/Python/Round 2/OpenAIagents/LinkedinScraper/scraper.py"]
+      transport: stdio
+      timeout: 60
+      

@@ -1,0 +1,19 @@
+Building local MCP Server and using it with OpenAI Agents
+
+
+
+
+
+
+Use MCP servers when:
+- You need to integrate with a wide variety of tools and services. 
+- You need to be able to switch between AI models or add new tools easily. 
+- You need a standardized way for AI to interact with external tools. 
+
+
+
+
+Use function calling when:
+- You need to integrate with a limited set of tools or APIs. 
+- You need a simple and easy-to-use approach. 
+- You don't need a high degree of flexibility or interoperability
